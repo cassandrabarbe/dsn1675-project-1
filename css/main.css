@@ -25,7 +25,61 @@ body{
   background-size: cover;
   width: 100%;
   margin: 0;
-  text-align: center;
   color: white;
   padding: 8em 0em;
+}
+
+h1{
+  font-size: 120%;
+  color: black;
+  text-align: center;
+}
+
+
+nav{
+width: 100%;
+margin: 0;
+}
+
+nav ol{
+   color: white;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+
+ nav li{
+   margin: 0;
+   text-align:center;
+   width: 100%;
+   list-style: none;
+ }
+
+ nav a{
+ display: block;
+ color: white;
+ text-decoration: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1em;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ text-align: center;
+ background-color: #67b7a6 ;
+ padding:0.74em;
+ position: relative;
+ z-index: 1;
+ margin: 3px;
+}
+
+nav a:hover{
+  color: white;
+  background-color: #97ccbf;
+}
+
+ol li{
+text-decoration: none;
+}
+
+p{
+  margin: 1em;
 }
