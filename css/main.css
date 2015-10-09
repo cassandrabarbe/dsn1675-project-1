@@ -80,3 +80,9 @@ text-decoration: none;
 p{
   margin: 1em;
 }
+
+img{
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
