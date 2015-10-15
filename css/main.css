@@ -22,6 +22,7 @@ body{
 figure{
   margin: 0;
   position: relative;
+  padding: 0;
 }
 
 .banner{
@@ -33,9 +34,10 @@ figure{
 h2{
   font-size: 130%;
   color: grey;
-  text-align: left;
+  text-align: center;
   padding-left: 0.2em;
   margin: 0;
+
 }
 .padding{
   padding-top: 0.4em;
@@ -44,43 +46,6 @@ h2{
 nav{
 width: 100%;
 margin: 0;
-}
-
-nav ol{
-   color: white;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
- }
-
- nav li{
-   margin: 0;
-   text-align:center;
-   width: 100%;
-   list-style: none;
- }
-
- nav a{
- display: block;
- color: grey;
- text-decoration: none;
- font-family: 'Roboto', sans-serif;
- font-size: 1em;
- padding-left: 0.5em;
- padding-right: 0.5em;
- text-align: center;
- padding:0.74em;
- position: relative;
- margin: 3px;
-}
-
-nav a:hover{
-  color: #67b6a6;
-
-}
-
-ol li{
-text-decoration: none;
 }
 
 p{
@@ -93,7 +58,6 @@ img{
 
 .caption{
   font-style: italic;
-  color: grey;
   margin: 0;
   padding-left: 1em;
 }
@@ -101,10 +65,15 @@ img{
 .icons{
   width: 25%;
   float:left;
-  padding-left:1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
 }
+
+.icons-2{
+  width: 25%;
+  float:left;
+  padding: 1em;
+}
+
 
 .work{
   clear: both;
@@ -114,38 +83,65 @@ img{
 
 }
 
+.bottom{
+  padding: 1em;
+  text-align: center;
+  height: 30%;
+}
+
+.contact{
+  padding: 1em;
+  text-align: center;
+}
+
+
 
 @media only screen and (min-width: 28em) {
-  nav li{
-    float:left;
-    width: 33.3%;
-  }
 
   html{
   font-size: 110%;
   line-height: 1.4;
 }
 
+.icons{
+  padding: 2em;
+}
+
+.icons-2{
+  padding: 2em;
+}
+
 .padding{
   padding: 1em;
 }
- .icons{
-   padding: 2em;
- }
 
 }
 
 @media only screen and (min-width: 50em) {
-  nav li{
-    width: 100%;
-  }
-  main{
-    width: 75%;
-    float: left;
-  }
 
-  .masthead{
-    width: 25%;
-    float: left;
-  }
+main{
+  width: 75%;
+  float: left;
+}
+
+header{
+  width: 25%;
+  float: left;
+  padding-top: 2em;
+}
+
+.icons{
+  width: 50%;
+  z-index: auto;
+  padding: 1em;
+
+}
+
+.icons-2{
+  width: 50%;
+  z-index: auto;
+  padding: 1em;
+
+}
+
 }
