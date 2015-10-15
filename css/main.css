@@ -37,8 +37,16 @@ h2{
   text-align: center;
   padding-left: 0.2em;
   margin: 0;
-
 }
+
+h3{
+  font-size: 125%;
+  color: grey;
+  text-align: center;
+  padding-left: 0.2em;
+  margin: 0;
+}
+
 .padding{
   padding-top: 0.4em;
 }
@@ -144,4 +152,50 @@ header{
 
 }
 
+}
+
+@media print{
+
+  main a::after {
+    content: " (" attr(href) ")";
+    color: #999;
+  }
+
+  .bottom{
+    display:none;
+  }
+
+  .icons{
+    display:none;
+  }
+
+  .icons-2{
+    display: none;
+  }
+
+  .me{
+    display: none;
+  }
+
+  .whoiam{
+    display: none;
+  }
+
+  h3{
+    display: none;
+  }
+
+  h2{
+    padding-top: 1em;
+  }
+
+  .banner{
+    display: none;
+  }
+
+  body{
+    border: dashed black 1px;
+    width: 3.5in;
+    height: 2in;
+  }
 }
